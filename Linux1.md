@@ -23,16 +23,16 @@ shiyanlou
 
 $find / 
 
-shiyanlou:~/ $ cd /home/shiyanlou                                    [12:12:46]
-shiyanlou:~/ $ touch asd.txt fgh.txt                                 [12:16:48]
-shiyanlou:~/ $ ls *.txt                                              [12:17:03]
+$ cd /home/shiyanlou                                    [12:12:46]
+$ touch asd.txt fgh.txt                                 [12:16:48]
+$ ls *.txt                                            
 asd.txt  fgh.txt
 
 
 需要一次性创建多个文件 
 
-shiyanlou:~/ $ touch love_{1..10}_shiyanlou.txt                      [12:17:29]
-shiyanlou:~/ $ ls *.txt                                              [12:19:47]
+$ touch love_{1..10}_shiyanlou.txt                     
+$ ls *.txt                                              
 asd.txt                love_2_shiyanlou.txt  love_6_shiyanlou.txt
 fgh.txt                love_3_shiyanlou.txt  love_7_shiyanlou.txt
 love_10_shiyanlou.txt  love_4_shiyanlou.txt  love_8_shiyanlou.txt
@@ -44,28 +44,6 @@ $man man
 man [1..8] ls
 
 $man 1 ls
-
-LS(1)                            User Commands                           LS(1)
-
-NAME
-       ls - list directory contents
-
-SYNOPSIS
-       ls [OPTION]... [FILE]...
-
-DESCRIPTION
-       List  information  about  the FILEs (the current directory by default).
-       Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci‐
-       fied.
-
-       Mandatory  arguments  to  long  options are mandatory for short options
-       too.
-
-       -a, --all
-              do not ignore entries starting with .
-
-       -A, --almost-all
-              do not list implied . and ..
 
 
 $ls --help 
@@ -107,7 +85,7 @@ shiyanlou:~/ $ printerbanner -w 50 A                                  [12:33:58]
 
 
 $toilet ,figlet   
-shiyanlou:~/ $ toilet Linux                                           [12:36:30]
+$ toilet Linux                                          
                                    
  m        "                        
  #      mmm    m mm   m   m  m   m 
@@ -116,7 +94,7 @@ shiyanlou:~/ $ toilet Linux                                           [12:36:30]
  #mmmmm mm#mm  #   #  "mm"#  m" "m 
                                    
                                    
-shiyanlou:~/ $ figlet Linux                                           [12:37:01]
+$ figlet Linux                                         
                                    
  m        "                        
  #      mmm    m mm   m   m  m   m 
